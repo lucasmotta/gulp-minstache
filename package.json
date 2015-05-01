@@ -1,0 +1,41 @@
+{
+  "name": "gulp-minstache",
+  "version": "0.0.1",
+  "description": "Mini mustache compiling tool",
+  "license": "MIT",
+  "repository": "lucasmotta/gulp-minstache",
+  "author": {
+    "name": "Lucas Motta",
+    "email": "mail@lucasmotta.com",
+    "url": "lucasmotta.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "mustache",
+    "minstache",
+    "template",
+    "compile",
+    "html",
+    "render",
+    "rendering",
+    "precompile"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "minstache": "^1.2.0",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "gulp-data": "^1.2.0",
+    "mocha": "*"
+  }
+}
